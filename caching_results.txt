@@ -1,0 +1,27 @@
+########################
+OLD TEST RESULTS
+########################
+optimal-1000000000-app
+{'cache_hits': 32075, 'cache_misses': 8498, 'hit_ratio': 0.7905503660069504, 'miss_ratio': 0.20944963399304956, 'total_requests': 40573}
+lru-1000000000-app
+{'cache_hits': 32031, 'cache_misses': 8542, 'hit_ratio': 0.7894659009686245, 'miss_ratio': 0.21053409903137554, 'total_requests': 40573}
+fifo-1000000000-app
+{'cache_hits': 32031, 'cache_misses': 8542, 'hit_ratio': 0.7894659009686245, 'miss_ratio': 0.21053409903137554, 'total_requests': 40573}
+beladys-1000000000-app
+{'cache_hits': 32031, 'cache_misses': 8542, 'hit_ratio': 0.7894659009686245, 'miss_ratio': 0.21053409903137554, 'total_requests': 40573}
+random-1000000000-app
+{'cache_hits': 32031, 'cache_misses': 8542, 'hit_ratio': 0.7894659009686245, 'miss_ratio': 0.21053409903137554, 'total_requests': 40573}
+prophetTS-1000000000-app
+{'cache_hits': 52909, 'cache_misses': 24536, 'hit_ratio': 0.6831816127574407, 'miss_ratio': 0.31681838724255923, 'total_requests': 77445}
+lstm-1000000000-app
+{'cache_hits': 54118, 'cache_misses': 23327, 'hit_ratio': 0.6987926915875783, 'miss_ratio': 0.3012073084124217, 'total_requests': 77445}
+arima-1000000000-app
+{'cache_hits': 52929, 'cache_misses': 24516, 'hit_ratio': 0.6834398605461941, 'miss_ratio': 0.3165601394538059, 'total_requests': 77445}
+########################
+NEW TEST RESULTS
+########################
+
+lru-1000000000-app
+{'cache_hits': 31780, 'cache_misses': 8793, 'hit_ratio': 0.7832795208636285, 'miss_ratio': 0.2167204791363715, 'total_requests': 40573}
+lstm-1000000000-app
+{'cache_hits': 54118, 'cache_misses': 23327, 'hit_ratio': 0.6987926915875783, 'miss_ratio': 0.3012073084124217, 'total_requests': 77445}
